@@ -10,10 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "crypto-browserify": "^3.12.1",
     "framer-motion": "^12.6.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-spring": "^9.7.5",
     "sweetalert2": "^11.17.2",
     "tailwindcss": "^4.1.0"
   },

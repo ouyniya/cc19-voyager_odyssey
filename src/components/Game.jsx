@@ -81,14 +81,14 @@ function Game() {
 
   return (
     <>
-      <div>
+      <div className="w-full m-auto">
         <h1>Voyager's Odyssey</h1>
         {showModal && (
           <div className="modal w-full flex flex-col justify-center items-center">
             <p className="text-white text-xl">{getRandomMessage()}</p>
             <button
               onClick={() => window.location.reload()}
-              className="text-white text-lg bg-indigo-900 w-[150px] rounded-2xl hover:bg-indigo-800 hover:cursor-pointer transition-all duration-300"
+              className="text-white text-lg !bg-indigo-900 w-[100px] rounded-2xl hover:bg-indigo-800 hover:cursor-pointer transition-all duration-300"
             >
               Restart
             </button>
