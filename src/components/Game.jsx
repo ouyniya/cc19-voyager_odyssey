@@ -70,7 +70,7 @@ function Game() {
     "🔥 Hope you all achieve great success in your future projects! 🔥",
     "💼 Wishing you an amazing career ahead! See you at the top! 💼",
     "🎆 Code on, dream big, and never stop learning! See you soon! 🎆",
-    "💙 This is not goodbye—just a 'see you later'! Keep in touch! 💙"
+    "💙 This is not goodbye—just a 'see you later'! Keep in touch! 💙",
   ];
 
   const getRandomMessage = () => {
@@ -83,6 +83,17 @@ function Game() {
     <>
       <div>
         <h1>Voyager's Odyssey</h1>
+        {showModal && (
+          <div className="modal w-full flex flex-col justify-center items-center">
+            <p className="text-white text-xl">{getRandomMessage()}</p>
+            <button
+              onClick={() => window.location.reload()}
+              className="text-white text-lg bg-indigo-900 w-[150px] rounded-2xl hover:bg-indigo-800 hover:cursor-pointer transition-all duration-300"
+            >
+              Restart
+            </button>
+          </div>
+        )}
       </div>
       <div className="w-full flex flex-col justify-center items-center">
         <section className="memory-game">
@@ -98,17 +109,6 @@ function Game() {
           {/* <Card card={card} onClick={} /> */}
         </section>
         {/* Alert Modal */}
-        {showModal && (
-          <div className="modal w-full flex flex-col justify-center items-center">
-            <p className="text-white text-xl">{getRandomMessage()}</p>
-            <button
-              onClick={() => window.location.reload()}
-              className="text-white text-lg bg-indigo-900 w-[150px] rounded-2xl hover:bg-indigo-800 hover:cursor-pointer transition-all duration-300"
-            >
-              Restart
-            </button>
-          </div>
-        )}
       </div>
     </>
   );
