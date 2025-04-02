@@ -1,12 +1,16 @@
-# React + Vite
+# Memory Game Using React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
 
-Currently, two official plugins are available:
+This project is a memory game built with **React**. The game allows players to flip cards, match pairs, and test their memory. It’s a fun and interactive way to challenge cognitive abilities while using React to handle state, animations, and component rendering.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+🎨 Credits & Acknowledgments
+Art and Visuals:
+Avatars in Pixels - https://www.avatarsinpixels.com/
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Pixilart - Artwork "Purple Skies" by Pixilart
+https://www.pixilart.com/art/purple-skies-sr26302fac93eaws3?ft=featured&ft_id=
+
+Game Sandbox:
+Developed using React and deployed via CodeSandbox: https://codesandbox.io/p/sandbox/memory-game-using-react-uyv1d?file=%2Fpublic%2Findex.html%3A13%2C1
